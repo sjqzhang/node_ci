@@ -1,8 +1,8 @@
 var http = require("http");
 exports.controller = function() {
-    var model= require('../models/index').IndexMode
+    var model= require('../models/index').IndexModel
     var index = function () {
-            console.dir(this)
+//            console.dir(this)
             this.render("index",{'title':'asdfasfasf','list':[1,2,3,4,5,6,7,8]});
         };
 

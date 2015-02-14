@@ -25,7 +25,7 @@ var SessionStorage = function () {
     var sessions = {},
         getSession = function (request) {
             var now = new Date().getTime();
-            console.log(now);
+//            console.log(now);
             var cookie = request.cookie;
             var SESSIONID_KEY = "session_id";
             var EXPIRES_TIME = 20 * 60 * 1000;

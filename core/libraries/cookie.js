@@ -25,8 +25,8 @@ Cookie.prototype.setCookie = function (name, value, options) {
         }
 
         this.changedMap[name] = item;
-        console.log("set cookie:");
-        console.log(item);
+//        console.log("set cookie:");
+//        console.log(item);
         this.response.setHeader("Set-Cookie", this.getCookies());
     }
 };

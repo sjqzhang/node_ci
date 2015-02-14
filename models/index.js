@@ -6,7 +6,7 @@
 //    callback();
 //    env.response.end()
 //};
-exports.IndexMode = (function(){
+exports.IndexModel = (function(){
 
     var getInfo= function (env, callback) {
 

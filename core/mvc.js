@@ -43,7 +43,7 @@ MVC.prototype.dispatch = function (request, response) {
     //console.log(request);
     //通过route来获取controller和action信息
     var routeInfo = this.router.getRouteInfo(request.url, request.method);
-    console.log(routeInfo);
+//    console.log(routeInfo);
     //如果route中有匹配的action，则分发给对应的action
     if (routeInfo.controller === "statics") {
         this.dispatchStatic(request, response, routeInfo.filePath);
