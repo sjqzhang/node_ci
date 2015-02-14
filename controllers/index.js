@@ -1,12 +1,27 @@
 var http = require("http");
 exports.controller = function() {
+    var model= require('../models/index').IndexMode
     var index = function () {
-            this.render("index");
+            console.dir(this)
+            this.render("index",{'title':'asdfasfasf','list':[1,2,3,4,5,6,7,8]});
         };
+
+    var getInfo=function(age){
+
+
+
+        model.getInfo(this,function(data){
+
+        })
+
+    }
+
 
     return {
         get: {
-            index: index
+            index: index,
+            getInfo:getInfo
         }
     };
 }();
+

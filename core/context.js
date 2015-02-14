@@ -39,6 +39,11 @@ Context.prototype = {
             });
         });
     },
+    renderStr:function(str){
+       this.response.writeHeader(200, {'Content-Type':'text/html; charset=utf-8'});
+       this.response.write(str);
+       this.response.end();
+    },
     renderView: function () {
         // TODO
     },

@@ -1,13 +1,16 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <title>Node CI</title>
-        <link rel="stylesheet" type="text/css" href="/statics/style.css" media="all" />
-    </head>
+<title></title>
     <body>
-        <div id="main">
-            <h1>Hello Node CI</h1>
-            <p>A NodeJS version CodeIgniter.</p>
-        </div>
+    #{it.title}
     </body>
+<ul>
+<?js for(var i=0;i<it.list.length;i++) { ?>
+
+
+  <li class='item'>#{it.list[i] }</li>
+
+
+<?js } ?>
+    </ul>
 </html>
+
