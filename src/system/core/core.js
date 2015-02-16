@@ -45,12 +45,17 @@ var core = {
 
 		//GET
 		if(req.method === "GET") {
-			this.execRequest(req, res);
+            params={}
+            var pos=req.url.indexOf('?');
+            if(  pos!=-1) {
+               params= qs.parse(  req.url.substring(pos+1))
+            }
+			this.execRequest(req, res,params);
 		}
 	},
 	
 	execRequest: function(req, res, postParams) {	
-		var urlRequest = req.url.split('/');
+		var urlRequest = req.url.split(/\/|\?/);
 		var params = this.router.trimArray(urlRequest.slice(2));
 		this.findController(res, urlRequest[1], params, postParams);
 	},
@@ -129,6 +134,10 @@ var core = {
 				} else {
 					//Error
 					output = 'Method /'+userControl.name+'/'+action+' not found.';
+                    res.write('404')
+                    res.end()
+                     console.log(__filename)
+
 				}
 				
 			} else {

@@ -23,11 +23,19 @@ controller.define('blog', {
 	},
 
 
-    abc:function(){
+	abc: function() {
+		//using model loaded in constructor
 
-       return "asdfasdf";
+        console.log(this.input.post.a)
+		var posts = this.blog_model.getPosts();
 
-    },
+		//give data to view and print
+		return this.load.view('abc.html', {
+			title: 'My blog!',
+            abc:'asdfsadfasf',
+			posts: posts
+		});
+	},
 
 	/*
 	 * Get data from twitter using a library
