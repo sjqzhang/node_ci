@@ -22,11 +22,35 @@ controller.define('blog', {
 		});
 	},
 
+    AA:function(){
+
+        return "AA";
+
+    },
+
+    _abc:function(){
+
+
+
+          return "safasd";
+
+    },
+
+    Test:function(){
+
+          this.input.aa.bb;
+
+       // return "test";
+
+       return this.load.view('abc.html',{abc:'I\'m jqzhang '})
+
+    },
+
 
 	abc: function() {
 		//using model loaded in constructor
 
-        console.log(this.input.post.a)
+        console.log(this.input.a)
 		var posts = this.blog_model.getPosts();
 
 		//give data to view and print

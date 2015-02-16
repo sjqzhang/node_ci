@@ -12,10 +12,19 @@ require(__dirname+'/../libraries/mustache.js');
  * HTTP Server
  */
 var http = require('http');
-http.createServer(function (req, res) {
+var server=http.createServer(function (req, res) {
 	res.writeHead(200, {'Content-Type': 'text/html'});
 	core.processRequest(req, res)
 }).listen(serverConfig.port, serverConfig.host);
+
+
+server.addListener("clientError", function (exception) {
+    console.log(exception);
+});
+
+server.addListener("upgrade", function (request, socket, head) {
+    console.log("upgrade");
+});
 console.log('Server running at http://'+serverConfig.host+':'+serverConfig.port+'/');
 
 var qs = require('querystring');
@@ -77,9 +86,10 @@ var core = {
 				
 				//Add POST params to input.post object
 				if(postParams) {
-					userController.actions.input = { 
-						post: postParams 
-					};
+//					userController.actions.input = {
+//						post: postParams
+//					};
+                    userController.actions.input=postParams;
 				}
 				
 				that.router.processActions(res, userController, params);
@@ -121,7 +131,8 @@ var core = {
 			//Execute selected method
 			if(params.length > 0 && params[0] != "") {
 				var action = params[0];
-				if(this.findAction(userControl.actions, action)) {
+                action=this.findAction(userControl.actions, action);
+				if(action) {
                     try {
                         var innerParams = this.trimArray(params.slice(1));
                         output = userControl.actions[action].apply(userControl.actions, innerParams);
@@ -129,6 +140,8 @@ var core = {
                         res.end()
                     }catch (err){
                         console.log(__filename,err)
+                        res.write('500:server error')
+                        res.end()
                     }
 					
 				} else {
@@ -164,9 +177,13 @@ var core = {
 		 */
 		findAction: function(object, action) {
 			if(typeof object !== 'object') return false;
+            if(action.match(/^\_/)){
+                return false;
+            }
 				
 			for(var i in object) {
-				if(i == action) {
+				if(i.toLowerCase()== action.toLowerCase()) {
+                    return i;
 					return true;
 				}
 			}
