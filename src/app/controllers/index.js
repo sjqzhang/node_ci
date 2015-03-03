@@ -10,7 +10,9 @@ controller.define('indexCtrl',{
        // console.log(this)
         //this.loader.model('index')
         this.load.model('index_model')
-        this.logger=this.log4js.getLogger('Index')
+
+        config={}
+
 
 
     },
@@ -18,15 +20,40 @@ controller.define('indexCtrl',{
 
       // return 'hello world';
 
+        console.log(config)
 
-       this.logger.info()
+
+       this.logger.info('aaaaaaaaa')
 
         this.index_model.index(null, function(err,data){
-            response.write(JSON.stringify(data))
-            response.end()
+           // response.write(JSON.stringify(data))
+            response.end(JSON.stringify(data))
         })
 
+    },
+    test:function(request,response){
+
+        return this.index_model.test()
+    },
+    put:function(request,response){
+
+      //  console.log(this.input)
+
+        this.index_model.set(this.input.key,this.input.val,function(err,data){
+            response.end(data)
+        })
+    },
+
+    get:function(request,response){
+
+      //  console.log(this.input)
+
+        this.index_model.get(this.input.key,function(err,data){
+            response.end(data)
+        })
     }
+
+
 
 
 

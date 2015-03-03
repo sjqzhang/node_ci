@@ -14,10 +14,10 @@ controller = {
 	define: function(name, actions) {
 //        console.log(this)
 		actions.load = this.loader;
-
         actions.end= this.end
-		
+		actions.logger=log4js.getLogger(name),
 		this.tempController = {
+
 			name: name,
 			actions: actions
 		};

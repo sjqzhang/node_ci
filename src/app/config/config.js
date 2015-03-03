@@ -26,8 +26,10 @@ config = {
       ],
       replaceConsole: true
 
+    },
+    redis:{
+        host:'172.16.3.241',
+        port:6379
     }
 
-
-	
 };

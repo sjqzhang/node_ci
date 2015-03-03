@@ -24,9 +24,11 @@ require(__dirname+'/../libraries/mustache.js');
 
 
 logger=null
+log4js=null
+controllers={}
 
 try {
-    var log4js = require('log4js');
+    log4js = require('log4js');
     log4js.configure(config.logger)
     logger= log4js.getLogger('default')
 
@@ -107,28 +109,35 @@ var core = {
 	findController: function(req,res, controllerName, params, postParams) {
 		var that = this;
 		var controllerFile = serverConfig.appFolder + '/controllers/' + controllerName + '.js';
-		
-		require('fs').readFile(controllerFile, "binary", function(err, data) {
-			if (!err) {
-				controller.res = res;
-				var userController = eval(data);
-				
-				//Add POST params to input.post object
-				if(postParams) {
+
+        if(controllers[controllerName]){
+             controllers[controllerName].actions.input = postParams;
+            that.router.processActions(req,res, controllers[controllerName], params);
+        } else {
+
+            require('fs').readFile(controllerFile, "binary", function (err, data) {
+                if (!err) {
+                    controller.res = res;
+                    var userController = eval(data);
+//                    controllers[controllerName] = userController
+
+                    //Add POST params to input.post object
+                    if (postParams) {
 //					userController.actions.input = {
 //						post: postParams
 //					};
-                    userController.actions.input=postParams;
-				}
-                userController.actions.log4js=log4js;
-                userController.actions.logger=logger;
-				
-				that.router.processActions(req,res, userController, params);
-				
-			} else {
-				res.end('File '+controllerFile+' not found')
-			}
-		});
+                        userController.actions.input = postParams;
+                    }
+//                userController.actions.log4js=log4js;
+//                userController.actions.logger=logger;
+
+                    that.router.processActions(req, res, userController, params);
+
+                } else {
+                    res.end('File ' + controllerFile + ' not found')
+                }
+            });
+        }
 	},
 	
 	/**
