@@ -16,8 +16,10 @@ config = {
     },
     logger:{
       appenders: [
-        { type: 'console' },{
-          type: 'file',
+           { type: 'console' }, //控制台输出
+      {
+
+          type: 'console',
           filename: 'access.log',
           maxLogSize: 1024,
           backups:4,
