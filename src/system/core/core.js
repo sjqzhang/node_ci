@@ -1,12 +1,41 @@
 /**
  * Requires
  */
+
+require(serverConfig.appFolder+'/config/config.js');
 require(__dirname+'/controller.js');
 require(__dirname+'/library.js');
 require(__dirname+'/model.js');
+
+
+
+
 require(__dirname+'/events.js');
 
+
+
+
+//var _activerecord=require(serverConfig.systemFolder+'/core/ar.js')
+
+
 require(__dirname+'/../libraries/mustache.js');
+
+
+
+
+logger=null
+
+try {
+    var log4js = require('log4js');
+    log4js.configure(config.logger)
+    logger= log4js.getLogger('default')
+
+}catch (e){
+
+    console.log(e)
+}
+
+logger.info('xxxxxxxx')
 
 /**
  * HTTP Server
@@ -66,7 +95,7 @@ var core = {
 	execRequest: function(req, res, postParams) {	
 		var urlRequest = req.url.split(/\/|\?/);
 		var params = this.router.trimArray(urlRequest.slice(2));
-		this.findController(res, urlRequest[1], params, postParams);
+		this.findController(req, res, urlRequest[1], params, postParams);
 	},
 	
 	/**
@@ -75,7 +104,7 @@ var core = {
 	 * @param {String} controllerName
 	 * @param {Array} params
 	 */
-	findController: function(res, controllerName, params, postParams) {
+	findController: function(req,res, controllerName, params, postParams) {
 		var that = this;
 		var controllerFile = serverConfig.appFolder + '/controllers/' + controllerName + '.js';
 		
@@ -91,8 +120,10 @@ var core = {
 //					};
                     userController.actions.input=postParams;
 				}
+                userController.actions.log4js=log4js;
+                userController.actions.logger=logger;
 				
-				that.router.processActions(res, userController, params);
+				that.router.processActions(req,res, userController, params);
 				
 			} else {
 				res.end('File '+controllerFile+' not found')
@@ -111,13 +142,16 @@ var core = {
 		 * @param {Object} c
 		 * @param {Array} params
 		 */
-		processActions: function(res, userControl, params) {	
+		processActions: function(req,res, userControl, params) {
 			var output = null;
 			
-			//Register response/end output event
+//			//Register response/end output event
 //			EventEmitter.on('IJSasyncListener', function(data) {
-//				//if(data) res.write(data);
-//				//res.end();
+//                if(typeof (data)==='object'){
+//                    data=JSON.stringify(data)
+//                }
+//				if(data) res.write(data);
+//				res.end();
 //			});
 			
 			//Execute constructors
@@ -135,9 +169,22 @@ var core = {
 				if(action) {
                     try {
                         var innerParams = this.trimArray(params.slice(1));
+
+                        innerParams.unshift(res)
+                        innerParams.unshift(req)
+
+//                        userControl['__response']=res
+                        //console.log(userControl)
                         output = userControl.actions[action].apply(userControl.actions, innerParams);
-                        res.write(output)
-                        res.end()
+                        if(typeof(output)==='string') {
+                            res.write(output)
+                            res.end()
+                        }
+// else if(typeof(output)==='object') {
+//                            res.write(JSON.stringify(output))
+//                            res.end()
+//                        }
+
                     }catch (err){
                         console.log(__filename,err)
                         res.write('500:server error')
@@ -168,6 +215,11 @@ var core = {
 //				EventEmitter.emit('IJSasyncListener', output);
 //			}
 		},
+
+
+        response:function(data){
+
+        },
 		
 		/**
 		 * findMethod

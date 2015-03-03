@@ -14,4 +14,12 @@ serverConfig = {
 /**
  * Go!
  */
+
+
+serverConfig.port=process.argv[2]||2000
+
+
 require(__dirname+'/system/core/core.js');
+
+
+

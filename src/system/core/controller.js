@@ -14,6 +14,8 @@ controller = {
 	define: function(name, actions) {
 //        console.log(this)
 		actions.load = this.loader;
+
+        actions.end= this.end
 		
 		this.tempController = {
 			name: name,
@@ -26,6 +28,18 @@ controller = {
 	response: function(data) {
 		EventEmitter.emit('IJSasyncListener', data);
 	},
+
+
+    end:function(data){
+        console.log(this['__response'])
+        if(typeof (data)==='object'){
+            data=JSON.stringify(data)
+        }
+        console.log(data)
+       // this.__response.end(data)
+    },
+
+
 	
 	/**
 	 * Loader
