@@ -5,9 +5,9 @@
 
 
 
-controller.define('__constructor',{
+controller.define('__dispatch',{
 
-    __constructor:function(){
+    __dispatch:function(){
 
     },
 
@@ -54,8 +54,9 @@ controller.define('__constructor',{
 
     ,test:function(req,res){
 
-        console.log(__config)
+        //console.log(__config)
 
+        this.logger.info('xxx')
         setTimeout(function(){
 
             res.end()

@@ -4,9 +4,9 @@
 
 var async = require('async')
 
-controller.define('indexCtrl', {
+controller.define('__index', {
 
-	indexCtrl: function() {
+	__index: function() {
 		// console.log(this)
 		//this.loader.model('index')
 		this.load.model('index_model')
