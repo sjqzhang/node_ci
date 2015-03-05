@@ -36,7 +36,7 @@ model = {
 	define: function(name, actions) {
         actions.db=db
         actions.redis=redis
-        actions.logger=log4js.getLogger(name)
+        actions.logger=__log4js.getLogger(name)
 		return {
 			name: name,
 			actions: actions

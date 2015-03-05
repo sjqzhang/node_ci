@@ -23,21 +23,24 @@ require(__dirname+'/../libraries/mustache.js');
 
 
 
-logger=null
-log4js=null
-controllers={}
+__logger=null
+__log4js=null
+__controllers={}
+var __config=config
+__config['serverConfig']=serverConfig
 
 try {
-    log4js = require('log4js');
-    log4js.configure(config.logger)
-    logger= log4js.getLogger('default')
+    __log4js = require('log4js');
+    __log4js.configure(config.logger)
+    __logger= __log4js.getLogger('default')
+    __logger.info('init log4js')
 
 }catch (e){
 
     console.log(e)
 }
 
-logger.info('xxxxxxxx')
+
 
 /**
  * HTTP Server
@@ -59,6 +62,7 @@ server.addListener("upgrade", function (request, socket, head) {
 console.log('Server running at http://'+serverConfig.host+':'+serverConfig.port+'/');
 
 var qs = require('querystring');
+
 /**
  * Core Base Object
  */
@@ -110,16 +114,16 @@ var core = {
 		var that = this;
 		var controllerFile = serverConfig.appFolder + '/controllers/' + controllerName + '.js';
 
-        if(controllers[controllerName]){
-             controllers[controllerName].actions.input = postParams;
-            that.router.processActions(req,res, controllers[controllerName], params);
+        if(__controllers[controllerName]){
+             __controllers[controllerName].actions.input = postParams;
+            that.router.processActions(req,res, __controllers[controllerName], params);
         } else {
 
             require('fs').readFile(controllerFile, "binary", function (err, data) {
                 if (!err) {
                     controller.res = res;
                     var userController = eval(data);
-//                    controllers[controllerName] = userController
+//                    __controllers[controllerName] = userController
 
                     //Add POST params to input.post object
                     if (postParams) {

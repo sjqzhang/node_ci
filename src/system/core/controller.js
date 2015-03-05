@@ -15,7 +15,7 @@ controller = {
 //        console.log(this)
 		actions.load = this.loader;
         actions.end= this.end
-		actions.logger=log4js.getLogger(name),
+		actions.logger=__log4js.getLogger(name),
 		this.tempController = {
 
 			name: name,

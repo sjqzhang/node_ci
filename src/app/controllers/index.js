@@ -16,9 +16,18 @@ controller.define('indexCtrl', {
 	},
 
 
+    view:function(){
+
+       return this.load.view('index.html',{name:'jqzhang'})
+    },
+
+
     step:function(reqest,respone){
 
         var that=this;
+
+
+        console.log()
 
         this.index_model.step1(1,function(err,data){
 
