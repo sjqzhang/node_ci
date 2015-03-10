@@ -9,6 +9,9 @@
   "sync":"*",
    "async":"*",
     "crypto":"*",
-       "download":""
+       "download":"",
+        "md5sum":"",
+        "jquery":"*",
+        "smb2":"*"
 }
 }

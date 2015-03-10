@@ -26,18 +26,26 @@ require(__dirname+'/../libraries/mustache.js');
 __logger=null
 __log4js=null
 __controllers={}
+__db=null
 var __config=config
 __config['serverConfig']=serverConfig
 
 try {
     __log4js = require('log4js');
-    __log4js.configure(config.logger)
+    __log4js.configure(__config.logger)
     __logger= __log4js.getLogger('default')
     __logger.info('init log4js')
-
 }catch (e){
-
     console.log(e)
+}
+
+try{
+//    var mysql = require('mysql');
+//    __db= mysql.createPool(__config.db);
+ var Db = require('mysql-activerecord');
+__db = new Db.Adapter(__config.db);
+}catch (e){
+  __logger.error(e)
 }
 
 
@@ -60,6 +68,10 @@ server.addListener("upgrade", function (request, socket, head) {
     console.log("upgrade");
 });
 console.log('Server running at http://'+serverConfig.host+':'+serverConfig.port+'/');
+
+process.on('uncaughtException', function (err) {
+   __logger.error(err)
+});
 
 var qs = require('querystring');
 
@@ -174,6 +186,7 @@ var core = {
 			if(this.findAction(userControl.actions, 'construct')) {
 				userControl.actions['construct']();
 			}
+
 			
 			//Execute selected method
 			if(params.length > 0 && params[0] != "") {

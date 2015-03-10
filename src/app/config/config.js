@@ -8,10 +8,10 @@ config = {
 	},
 	db: {
 		connectionLimit: 100,
-		host: '172.16.3.92',
+		host: '127.0.0.1',
 		user: 'root',
-		password: 'meizu.com',
-		database: 'test'
+		password: 'root',
+		database: 'gujian'
 	},
 	logger: {
 		appenders: [{
@@ -20,18 +20,15 @@ config = {
 		//控制台输出
 		{
 
-            type: 'console',
-			filename: 'access.log',
-			maxLogSize: 1024,
-			backups: 4,
-			category: 'normal'
-		}],
+            type: 'file',
+			filename: 'logs/access.log',
+			maxLogSize: 102400,
+			backups: 4
+
+		}]/*,
 		replaceConsole: true
+*/
+       // ,levels:{ "logDebug": "DEBUG", "logInfo": "DEBUG", "logWarn": "DEBUG", "logErr": "DEBUG"}
 
-	},
-	redis: {
-		host: '172.16.3.241',
-		port: 6379
 	}
-
 };
