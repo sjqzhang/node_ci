@@ -1,6 +1,6 @@
 config = {
 
-	defaultController: 'blog',
+	defaultController: 'index',
 
 	autoloads: {
 		libraries: [],

@@ -60,10 +60,25 @@ controller.define('dispatch',{
      */
     distribute_firmware:function(req,res){
     var fs=require('fs')
-    var dir_cur=this.helper.date('Y-m-d')
+    var urlparse=require('url')
+    var url_info= urlparse.parse(this.input.url)
+    var dir_cur=url_info.pathname.substring(1, url_info.pathname.lastIndexOf('/'))
+
+
+        console.log(dir_cur)
+
+    var filename=url_info.pathname.substring( url_info.pathname.lastIndexOf('/')+1,url_info.pathname.length)
+
+//        console.log(filename)
+
     var savepath='/data/firmware/download.meizu.com/'+dir_cur+'/'
+
+        console.log(savepath)
+
     if(!fs.existsSync(savepath)) {
-        fs.mkdirSync(savepath)
+//        fs.mkdirsSync(savepath)
+        //console.log(savepath)
+         //this.helper.mkdirsSync(savepath,'777')
     }
     var that=this
     var key=that.mdkey
@@ -76,8 +91,8 @@ controller.define('dispatch',{
       var Download = require('download');
         var md5=this.helper.md5(that.input.local_path)
 
-        var download = new Download({ mode: '755'}).get(this.input.local_path).dest(savepath).rename(md5);
-            filepath=savepath+md5
+        var download = new Download({ mode: '755'}).get(this.input.local_path).dest(savepath).rename(filename);
+            filepath=savepath+filename
             download.run(function (err, files) {
                 if (err) {
                     throw err;
@@ -97,7 +112,7 @@ controller.define('dispatch',{
                             var idata={
                                 'time':Date.now()/1000,
                                 'md5_file':file_md5,
-                                'path':dir_cur+'/'+md5,
+                                'path':dir_cur+'/'+filename,
                                 'md5_url':md5
                             }
                            // console.log(idata)
@@ -156,7 +171,7 @@ controller.define('dispatch',{
                       break;
                   }
               }
-            result['data']=path
+            result['data']=sucess
 
             res.end(JSON.stringify(result))
             })//end get

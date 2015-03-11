@@ -124,6 +124,12 @@ var core = {
 	 */
 	findController: function(req,res, controllerName, params, postParams) {
 		var that = this;
+        if(controllerName==''){
+            //controllerName=__config['defaultController']||'index'
+            res.end('Welcome To Node World!')
+            return;
+        }
+       // console.log(controllerName)
 		var controllerFile = serverConfig.appFolder + '/controllers/' + controllerName + '.js';
 
         if(__controllers[controllerName]){
@@ -135,7 +141,7 @@ var core = {
                 if (!err) {
                     controller.res = res;
                     var userController = eval(data);
-//                    __controllers[controllerName] = userController
+                    __controllers[controllerName] = userController
 
                     //Add POST params to input.post object
                     if (postParams) {
@@ -191,6 +197,10 @@ var core = {
 			//Execute selected method
 			if(params.length > 0 && params[0] != "") {
 				var action = params[0];
+                if(action==''){
+                    res.end('Not Implement!')
+                    return;
+                }
                 action=this.findAction(userControl.actions, action);
 				if(action) {
                     try {
@@ -222,18 +232,28 @@ var core = {
 					output = 'Method /'+userControl.name+'/'+action+' not found.';
                     res.write('404')
                     res.end()
-                     console.log(__filename)
+                    // console.log(__filename)
 
 				}
 				
 			} else {
+//                 res.end('Not Implement!')
+//                 return;
 				//Execute index function
 				if(this.findAction(userControl.actions,'index')) {
-					output = userControl.actions['index'](params);
+                    var innerParams = this.trimArray(params.slice(1));
+
+                        innerParams.unshift(res)
+                        innerParams.unshift(req)
+
+//                        userControl['__response']=res
+                        //console.log(userControl)
+                        output = userControl.actions['index'].apply(userControl.actions, innerParams);
 					
 				} else {
 					//Error
-					output = 'Index method has not been found.';
+					 res.end('Not Implement!')
+                     return;
 				}
 			}
 			

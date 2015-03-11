@@ -1,1 +1,715 @@
 [2015-03-10 15:11:03.350] [INFO] default - init log4js
+[2015-03-10 15:27:58.668] [INFO] default - init log4js
+[2015-03-10 15:28:01.322] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39' }
+[2015-03-10 15:28:04.672] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 15:35:48.721] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39' }
+[2015-03-10 15:35:51.183] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 15:38:06.122] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 15:38:08.185] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 15:38:23.180] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 15:38:25.188] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 15:42:54.651] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 15:42:56.900] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 15:43:21.122] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 15:43:23.137] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 15:54:25.238] [INFO] default - init log4js
+[2015-03-10 15:55:16.014] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 15:55:20.389] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 15:56:25.004] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 15:56:27.144] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 15:56:31.794] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 15:56:34.070] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 15:56:52.811] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 15:56:54.945] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 15:57:21.813] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 15:57:24.174] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 15:57:35.716] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 15:57:37.981] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 15:58:07.871] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 15:58:10.182] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 15:58:18.134] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 15:58:20.249] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 15:59:51.377] [INFO] default - init log4js
+[2015-03-10 15:59:53.238] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 15:59:57.517] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 16:01:19.895] [INFO] default - init log4js
+[2015-03-10 16:34:50.701] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 16:34:54.729] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 16:34:57.933] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 16:34:58.670] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 16:35:00.225] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 16:35:00.341] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 16:35:01.525] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 16:35:01.891] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 16:35:02.157] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 16:35:02.398] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 16:35:03.098] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 16:35:04.652] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 16:35:06.375] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 16:35:07.925] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 16:35:15.708] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 16:35:18.124] [INFO] dispatch - <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com//Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com//Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com//Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div>{"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 16:35:41.712] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http:/' }
+[2015-03-10 16:35:43.266] [ERROR] default - { [Error: EISDIR, read] errno: 28, code: 'EISDIR' }
+Error: EISDIR, read
+[2015-03-10 16:37:08.358] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http:/' }
+[2015-03-10 16:37:09.938] [ERROR] default - { [Error: EISDIR, read] errno: 28, code: 'EISDIR' }
+Error: EISDIR, read
+[2015-03-10 16:37:25.378] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http:/' }
+[2015-03-10 16:37:26.914] [ERROR] default - { [Error: EISDIR, read] errno: 28, code: 'EISDIR' }
+Error: EISDIR, read
+[2015-03-10 16:37:40.818] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 16:37:43.074] [INFO] dispatch - <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com//Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com//Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com//Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div>{"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 16:38:14.091] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 16:38:19.352] [INFO] dispatch - <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com//Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com//Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com//Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div>{"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 16:38:39.323] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 16:38:41.336] [INFO] dispatch - <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com//Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com//Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com//Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div>{"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 16:39:01.060] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 16:39:17.523] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 16:39:20.075] [INFO] dispatch - <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div>{"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 16:39:24.432] [INFO] dispatch - <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com//Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com//Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com//Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div>{"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":""}}
+[2015-03-10 16:40:29.484] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 16:40:31.920] [INFO] dispatch - <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div>{"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 16:41:29.227] [INFO] default - init log4js
+[2015-03-10 16:41:38.306] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 16:41:42.432] [INFO] dispatch - <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  filesize(): stat failed for /data/firmware/download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/3026a754e77e6f0d55c9298076e086c1</p>
+<p>Filename: libraries/cdn.php</p>
+<p>Line Number: 103</p>
+
+</div>{"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 16:41:55.043] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 16:41:57.365] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 16:48:50.780] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 16:48:51.408] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 16:48:51.951] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 16:48:52.502] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 16:48:52.821] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-10 16:48:53.031] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 16:48:54.405] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 16:48:56.172] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 16:48:57.820] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-10 16:48:58.993] [INFO] dispatch - {"status":{"dl":1,"ws":1,"lx":0},"msg":{"dl":"SUCCESS","ws":"SUCCESS","lx":"password is error "}}
+[2015-03-11 09:56:08.668] [INFO] default - init log4js
+[2015-03-11 09:56:27.141] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-11 09:56:48.646] [ERROR] default - { [Error: connect ETIMEDOUT] code: 'ETIMEDOUT', errno: 'ETIMEDOUT', syscall: 'connect' }
+Error: connect ETIMEDOUT
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2015-03-11 09:56:48.649] [ERROR] default - { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1472:15)
+    at Socket.socketCloseListener (http.js:1522:23)
+    at Socket.EventEmitter.emit (events.js:117:20)
+    at TCP.close (net.js:466:12)
+[2015-03-11 11:17:14.040] [INFO] default - init log4js
+[2015-03-11 11:17:46.528] [INFO] default - init log4js
+[2015-03-11 11:19:12.621] [INFO] default - init log4js
+[2015-03-11 11:20:21.824] [INFO] default - init log4js
+[2015-03-11 11:22:34.976] [INFO] default - init log4js
+[2015-03-11 14:37:49.133] [INFO] default - init log4js
+[2015-03-11 14:43:53.682] [INFO] default - init log4js
+[2015-03-11 14:57:58.513] [INFO] default - init log4js
+[2015-03-11 14:58:49.771] [INFO] default - init log4js
+[2015-03-11 15:45:11.672] [INFO] default - init log4js
+[2015-03-11 15:48:51.735] [INFO] default - init log4js
+[2015-03-11 15:49:25.405] [INFO] default - init log4js
+[2015-03-11 15:49:44.997] [INFO] default - init log4js
+[2015-03-11 15:50:12.165] [INFO] default - init log4js
+[2015-03-11 15:50:13.465] [INFO] index - aaaaaaaaa
+[2015-03-11 15:50:13.465] [ERROR] default - [TypeError: Cannot call method 'index' of undefined]
+TypeError: Cannot call method 'index' of undefined
+    at controller.define.index (eval at <anonymous> (e:\nodejs\node_ci\src\system\core\core.js:141:47), <anonymous>:84:20)
+    at Object.core.router.processActions (e:\nodejs\node_ci\src\system\core\core.js:188:42)
+    at e:\nodejs\node_ci\src\system\core\core.js:154:33
+    at fs.js:266:14
+    at Object.oncomplete (fs.js:107:15)
+[2015-03-11 15:54:40.714] [INFO] default - init log4js
+[2015-03-11 15:54:43.564] [INFO] index - aaaaaaaaa
+[2015-03-11 15:54:43.564] [ERROR] default - [TypeError: Cannot call method 'index' of undefined]
+TypeError: Cannot call method 'index' of undefined
+    at controller.define.index (eval at <anonymous> (e:\nodejs\node_ci\src\system\core\core.js:141:47), <anonymous>:84:20)
+    at Object.core.router.processActions (e:\nodejs\node_ci\src\system\core\core.js:188:42)
+    at e:\nodejs\node_ci\src\system\core\core.js:154:33
+    at fs.js:266:14
+    at Object.oncomplete (fs.js:107:15)
+[2015-03-11 15:54:51.843] [INFO] index - aaaaaaaaa
+[2015-03-11 15:54:51.843] [ERROR] default - [TypeError: Cannot call method 'index' of undefined]
+TypeError: Cannot call method 'index' of undefined
+    at controller.define.index (eval at <anonymous> (e:\nodejs\node_ci\src\system\core\core.js:141:47), <anonymous>:84:20)
+    at Object.core.router.processActions (e:\nodejs\node_ci\src\system\core\core.js:188:42)
+    at Object.core.findController (e:\nodejs\node_ci\src\system\core\core.js:135:25)
+    at Object.core.execRequest (e:\nodejs\node_ci\src\system\core\core.js:116:8)
+    at Object.core.processRequest (e:\nodejs\node_ci\src\system\core\core.js:109:9)
+    at Server.<anonymous> (e:\nodejs\node_ci\src\system\core\core.js:59:7)
+    at Server.EventEmitter.emit (events.js:98:17)
+    at HTTPParser.parser.onIncoming (http.js:2108:12)
+    at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:121:23)
+    at Socket.socket.ondata (http.js:1966:22)
+[2015-03-11 15:55:11.823] [INFO] default - init log4js
+[2015-03-11 15:55:13.581] [ERROR] default - [TypeError: Object [object Object] has no method 'Index']
+TypeError: Object [object Object] has no method 'Index'
+    at Object.core.router.processActions (e:\nodejs\node_ci\src\system\core\core.js:188:42)
+    at e:\nodejs\node_ci\src\system\core\core.js:154:33
+    at fs.js:266:14
+    at Object.oncomplete (fs.js:107:15)
+[2015-03-11 15:55:15.672] [ERROR] default - [TypeError: Object [object Object] has no method 'Index']
+TypeError: Object [object Object] has no method 'Index'
+    at Object.core.router.processActions (e:\nodejs\node_ci\src\system\core\core.js:188:42)
+    at Object.core.findController (e:\nodejs\node_ci\src\system\core\core.js:135:25)
+    at Object.core.execRequest (e:\nodejs\node_ci\src\system\core\core.js:116:8)
+    at Object.core.processRequest (e:\nodejs\node_ci\src\system\core\core.js:109:9)
+    at Server.<anonymous> (e:\nodejs\node_ci\src\system\core\core.js:59:7)
+    at Server.EventEmitter.emit (events.js:98:17)
+    at HTTPParser.parser.onIncoming (http.js:2108:12)
+    at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:121:23)
+    at Socket.socket.ondata (http.js:1966:22)
+    at TCP.onread (net.js:525:27)
+[2015-03-11 15:55:33.003] [ERROR] default - [TypeError: Object [object Object] has no method 'Index']
+TypeError: Object [object Object] has no method 'Index'
+    at Object.core.router.processActions (e:\nodejs\node_ci\src\system\core\core.js:188:42)
+    at Object.core.findController (e:\nodejs\node_ci\src\system\core\core.js:135:25)
+    at Object.core.execRequest (e:\nodejs\node_ci\src\system\core\core.js:116:8)
+    at Object.core.processRequest (e:\nodejs\node_ci\src\system\core\core.js:109:9)
+    at Server.<anonymous> (e:\nodejs\node_ci\src\system\core\core.js:59:7)
+    at Server.EventEmitter.emit (events.js:98:17)
+    at HTTPParser.parser.onIncoming (http.js:2108:12)
+    at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:121:23)
+    at Socket.socket.ondata (http.js:1966:22)
+    at TCP.onread (net.js:525:27)
+[2015-03-11 15:55:34.730] [INFO] default - init log4js
+[2015-03-11 15:55:36.440] [INFO] constructor - aaaaaaaaa
+[2015-03-11 15:55:36.440] [INFO] index_model - abc
+[2015-03-11 15:55:44.085] [INFO] constructor - aaaaaaaaa
+[2015-03-11 15:55:44.085] [INFO] index_model - abc
+[2015-03-11 15:55:44.087] [ERROR] default - [TypeError: Cannot call method 'end' of undefined]
+TypeError: Cannot call method 'end' of undefined
+    at Query.eval [as _callback] (eval at <anonymous> (e:\nodejs\node_ci\src\system\core\core.js:141:47), <anonymous>:87:13)
+    at Query.Sequence.end (e:\nodejs\node_ci\src\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Query.ErrorPacket (e:\nodejs\node_ci\src\node_modules\mysql\lib\protocol\sequences\Query.js:93:8)
+    at Protocol._parsePacket (e:\nodejs\node_ci\src\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (e:\nodejs\node_ci\src\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (e:\nodejs\node_ci\src\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (e:\nodejs\node_ci\src\node_modules\mysql\lib\Connection.js:82:28)
+    at Socket.EventEmitter.emit (events.js:95:17)
+    at Socket.<anonymous> (_stream_readable.js:746:14)
+    at Socket.EventEmitter.emit (events.js:92:17)
+[2015-03-11 15:56:04.068] [INFO] default - init log4js
+[2015-03-11 15:56:04.368] [ERROR] default - [TypeError: Cannot call method 'end' of undefined]
+TypeError: Cannot call method 'end' of undefined
+    at controller.define.index (eval at <anonymous> (e:\nodejs\node_ci\src\system\core\core.js:141:47), <anonymous>:20:9)
+    at Object.core.router.processActions (e:\nodejs\node_ci\src\system\core\core.js:236:43)
+    at e:\nodejs\node_ci\src\system\core\core.js:154:33
+    at fs.js:266:14
+    at Object.oncomplete (fs.js:107:15)
+[2015-03-11 15:56:12.559] [ERROR] default - [TypeError: Cannot call method 'end' of undefined]
+TypeError: Cannot call method 'end' of undefined
+    at controller.define.index (eval at <anonymous> (e:\nodejs\node_ci\src\system\core\core.js:141:47), <anonymous>:20:9)
+    at Object.core.router.processActions (e:\nodejs\node_ci\src\system\core\core.js:236:43)
+    at Object.core.findController (e:\nodejs\node_ci\src\system\core\core.js:135:25)
+    at Object.core.execRequest (e:\nodejs\node_ci\src\system\core\core.js:116:8)
+    at Object.core.processRequest (e:\nodejs\node_ci\src\system\core\core.js:109:9)
+    at Server.<anonymous> (e:\nodejs\node_ci\src\system\core\core.js:59:7)
+    at Server.EventEmitter.emit (events.js:98:17)
+    at HTTPParser.parser.onIncoming (http.js:2108:12)
+    at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:121:23)
+    at Socket.socket.ondata (http.js:1966:22)
+[2015-03-11 15:56:41.280] [INFO] default - init log4js
+[2015-03-11 15:56:48.398] [ERROR] default - [TypeError: Cannot call method 'end' of undefined]
+TypeError: Cannot call method 'end' of undefined
+    at controller.define.index (eval at <anonymous> (e:\nodejs\node_ci\src\system\core\core.js:141:47), <anonymous>:20:9)
+    at Object.core.router.processActions (e:\nodejs\node_ci\src\system\core\core.js:188:42)
+    at e:\nodejs\node_ci\src\system\core\core.js:154:33
+    at fs.js:266:14
+    at Object.oncomplete (fs.js:107:15)
+[2015-03-11 15:57:19.032] [INFO] default - init log4js
+[2015-03-11 15:57:21.003] [ERROR] default - [TypeError: Cannot call method 'end' of undefined]
+TypeError: Cannot call method 'end' of undefined
+    at Object.controller.define.index (eval at <anonymous> (e:\nodejs\node_ci\src\system\core\core.js:141:47), <anonymous>:20:9)
+    at Object.core.router.processActions (e:\nodejs\node_ci\src\system\core\core.js:188:42)
+    at e:\nodejs\node_ci\src\system\core\core.js:154:33
+    at fs.js:266:14
+    at Object.oncomplete (fs.js:107:15)
+[2015-03-11 15:57:23.950] [ERROR] default - [TypeError: Cannot call method 'end' of undefined]
+TypeError: Cannot call method 'end' of undefined
+    at Object.controller.define.index (eval at <anonymous> (e:\nodejs\node_ci\src\system\core\core.js:141:47), <anonymous>:20:9)
+    at Object.core.router.processActions (e:\nodejs\node_ci\src\system\core\core.js:188:42)
+    at Object.core.findController (e:\nodejs\node_ci\src\system\core\core.js:135:25)
+    at Object.core.execRequest (e:\nodejs\node_ci\src\system\core\core.js:116:8)
+    at Object.core.processRequest (e:\nodejs\node_ci\src\system\core\core.js:109:9)
+    at Server.<anonymous> (e:\nodejs\node_ci\src\system\core\core.js:59:7)
+    at Server.EventEmitter.emit (events.js:98:17)
+    at HTTPParser.parser.onIncoming (http.js:2108:12)
+    at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:121:23)
+    at Socket.socket.ondata (http.js:1966:22)
+[2015-03-11 15:57:30.503] [ERROR] default - [TypeError: Cannot call method 'end' of undefined]
+TypeError: Cannot call method 'end' of undefined
+    at Object.controller.define.index (eval at <anonymous> (e:\nodejs\node_ci\src\system\core\core.js:141:47), <anonymous>:20:9)
+    at Object.core.router.processActions (e:\nodejs\node_ci\src\system\core\core.js:188:42)
+    at Object.core.findController (e:\nodejs\node_ci\src\system\core\core.js:135:25)
+    at Object.core.execRequest (e:\nodejs\node_ci\src\system\core\core.js:116:8)
+    at Object.core.processRequest (e:\nodejs\node_ci\src\system\core\core.js:109:9)
+    at Server.<anonymous> (e:\nodejs\node_ci\src\system\core\core.js:59:7)
+    at Server.EventEmitter.emit (events.js:98:17)
+    at HTTPParser.parser.onIncoming (http.js:2108:12)
+    at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:121:23)
+    at Socket.socket.ondata (http.js:1966:22)
+[2015-03-11 15:59:29.555] [INFO] default - init log4js
+[2015-03-11 15:59:33.850] [ERROR] default - [TypeError: Cannot call method 'end' of undefined]
+TypeError: Cannot call method 'end' of undefined
+    at Object.controller.define.index (eval at <anonymous> (e:\nodejs\node_ci\src\system\core\core.js:142:47), <anonymous>:20:9)
+    at Object.core.router.processActions (e:\nodejs\node_ci\src\system\core\core.js:189:42)
+    at e:\nodejs\node_ci\src\system\core\core.js:155:33
+    at fs.js:266:14
+    at Object.oncomplete (fs.js:107:15)
+[2015-03-11 15:59:44.551] [ERROR] default - [TypeError: Cannot call method 'end' of undefined]
+TypeError: Cannot call method 'end' of undefined
+    at Object.controller.define.index (eval at <anonymous> (e:\nodejs\node_ci\src\system\core\core.js:142:47), <anonymous>:20:9)
+    at Object.core.router.processActions (e:\nodejs\node_ci\src\system\core\core.js:189:42)
+    at Object.core.findController (e:\nodejs\node_ci\src\system\core\core.js:136:25)
+    at Object.core.execRequest (e:\nodejs\node_ci\src\system\core\core.js:116:8)
+    at Object.core.processRequest (e:\nodejs\node_ci\src\system\core\core.js:109:9)
+    at Server.<anonymous> (e:\nodejs\node_ci\src\system\core\core.js:59:7)
+    at Server.EventEmitter.emit (events.js:98:17)
+    at HTTPParser.parser.onIncoming (http.js:2108:12)
+    at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:121:23)
+    at Socket.socket.ondata (http.js:1966:22)
+[2015-03-11 15:59:57.111] [ERROR] default - [TypeError: Cannot call method 'end' of undefined]
+TypeError: Cannot call method 'end' of undefined
+    at Object.controller.define.index (eval at <anonymous> (e:\nodejs\node_ci\src\system\core\core.js:142:47), <anonymous>:20:9)
+    at Object.core.router.processActions (e:\nodejs\node_ci\src\system\core\core.js:189:42)
+    at Object.core.findController (e:\nodejs\node_ci\src\system\core\core.js:136:25)
+    at Object.core.execRequest (e:\nodejs\node_ci\src\system\core\core.js:116:8)
+    at Object.core.processRequest (e:\nodejs\node_ci\src\system\core\core.js:109:9)
+    at Server.<anonymous> (e:\nodejs\node_ci\src\system\core\core.js:59:7)
+    at Server.EventEmitter.emit (events.js:98:17)
+    at HTTPParser.parser.onIncoming (http.js:2108:12)
+    at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:121:23)
+    at Socket.socket.ondata (http.js:1966:22)
+[2015-03-11 16:00:29.785] [INFO] default - init log4js
+[2015-03-11 16:00:50.584] [INFO] default - init log4js
+[2015-03-11 16:00:51.191] [INFO] default - init log4js
+[2015-03-11 16:00:56.318] [ERROR] default - [TypeError: Cannot call method 'end' of undefined]
+TypeError: Cannot call method 'end' of undefined
+    at Object.controller.define.index (eval at <anonymous> (e:\nodejs\node_ci\src\system\core\core.js:142:47), <anonymous>:20:9)
+    at Object.core.router.processActions (e:\nodejs\node_ci\src\system\core\core.js:237:43)
+    at Object.core.findController (e:\nodejs\node_ci\src\system\core\core.js:136:25)
+    at Object.core.execRequest (e:\nodejs\node_ci\src\system\core\core.js:116:8)
+    at Object.core.processRequest (e:\nodejs\node_ci\src\system\core\core.js:109:9)
+    at Server.<anonymous> (e:\nodejs\node_ci\src\system\core\core.js:59:7)
+    at Server.EventEmitter.emit (events.js:98:17)
+    at HTTPParser.parser.onIncoming (http.js:2108:12)
+    at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:121:23)
+    at Socket.socket.ondata (http.js:1966:22)
+[2015-03-11 16:02:10.387] [INFO] default - init log4js
+[2015-03-11 16:02:12.050] [ERROR] default - [TypeError: Cannot call method 'end' of undefined]
+TypeError: Cannot call method 'end' of undefined
+    at Object.controller.define.index (eval at <anonymous> (e:\nodejs\node_ci\src\system\core\core.js:143:47), <anonymous>:20:9)
+    at Object.core.router.processActions (e:\nodejs\node_ci\src\system\core\core.js:242:43)
+    at e:\nodejs\node_ci\src\system\core\core.js:156:33
+    at fs.js:266:14
+    at Object.oncomplete (fs.js:107:15)
+[2015-03-11 16:04:06.422] [INFO] default - init log4js
+[2015-03-11 16:05:08.894] [INFO] default - init log4js
+[2015-03-11 16:05:12.604] [ERROR] default - [TypeError: Cannot call method 'end' of undefined]
+TypeError: Cannot call method 'end' of undefined
+    at Object.controller.define.index (eval at <anonymous> (e:\nodejs\node_ci\src\system\core\core.js:143:47), <anonymous>:20:9)
+    at Object.core.router.processActions (e:\nodejs\node_ci\src\system\core\core.js:246:43)
+    at Object.core.findController (e:\nodejs\node_ci\src\system\core\core.js:137:25)
+    at Object.core.execRequest (e:\nodejs\node_ci\src\system\core\core.js:116:8)
+    at Object.core.processRequest (e:\nodejs\node_ci\src\system\core\core.js:109:9)
+    at Server.<anonymous> (e:\nodejs\node_ci\src\system\core\core.js:59:7)
+    at Server.EventEmitter.emit (events.js:98:17)
+    at HTTPParser.parser.onIncoming (http.js:2108:12)
+    at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:121:23)
+    at Socket.socket.ondata (http.js:1966:22)
+[2015-03-11 16:06:12.477] [INFO] default - init log4js
+[2015-03-11 16:06:54.484] [INFO] default - init log4js
+[2015-03-11 16:07:23.253] [INFO] default - init log4js
+[2015-03-11 16:08:00.633] [INFO] dispatch - { local_path: 'http://172.16.15.209:8000/update.zip',
+  md5: '8ec1fd2a857635a6c977a9631f82ab4c',
+  timestamp: '1425958576384',
+  file_md5: 'b962aee34e84a749e4951237fb04ac39',
+  url: 'http://download.meizu.com/Firmware/Flyme/m1c_note/4.2.0.1/cn/201502151400/2e65a946/update.zip' }
+[2015-03-11 16:08:03.908] [ERROR] default - { [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect' }
+Error: connect ECONNREFUSED
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[2015-03-11 16:08:03.909] [ERROR] default - { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1472:15)
+    at Socket.socketCloseListener (http.js:1522:23)
+    at Socket.EventEmitter.emit (events.js:117:20)
+    at TCP.close (net.js:466:12)

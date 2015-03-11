@@ -4,9 +4,9 @@
 
 var async = require('async')
 
-controller.define('__index', {
+controller.define('_index', {
 
-	__index: function() {
+	construct: function() {
 		// console.log(this)
 		//this.loader.model('index')
 		this.load.model('index_model')
@@ -14,6 +14,15 @@ controller.define('__index', {
 		config = {}
 
 	},
+
+    index:function(req,res){
+
+    res.end('Hello World')
+},
+
+
+
+
 
 
     view:function(){
@@ -65,20 +74,24 @@ controller.define('__index', {
         )
 
 	},
-	index: function(request, response) {
+//	index: function(request, response) {
+//
+//		// return 'hello world';
+//		console.log(config)
+//
+//		this.logger.info('aaaaaaaaa')
+//
+//		this.index_model.index(null,
+//		function(err, data) {
+//			// response.write(JSON.stringify(data))
+//			response.end(JSON.stringify(data))
+//		})
+//
+//	},
+    hello:function(req,res){
 
-		// return 'hello world';
-		console.log(config)
-
-		this.logger.info('aaaaaaaaa')
-
-		this.index_model.index(null,
-		function(err, data) {
-			// response.write(JSON.stringify(data))
-			response.end(JSON.stringify(data))
-		})
-
-	},
+        res.end('hello world')
+    },
 	test: function(request, response) {
 
 		return this.index_model.test()
